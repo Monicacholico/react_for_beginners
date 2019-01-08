@@ -8,7 +8,7 @@ class StorePicker extends React.Component {
                 { /* comment */}
         <h2>Please Enter a store</h2>
                 <input type="text" required placeholder="Store Name"/>
-                <button type="submit"/>
+                <button type="submit">Visit Store</button>
         </form>
 
         )
