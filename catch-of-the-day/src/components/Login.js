@@ -7,20 +7,17 @@ const Login = (props) => (
         <p>Sing in to manage your store's inventory</p>
         <button
             className="github"
-            onClick={() => props.
-        authenticate('Github')}
+            onClick={() => props.authenticate('Github')}
         >
             Log in with Github
         </button>
         <button className="twitter"
-                onClick={() => props.
-        authenticate('Twitter')}
+                onClick={() => props.authenticate('Twitter')}
         >
             Log in with Twitter
         </button>
         <button className="facebook"
-                onClick={() => props.
-        authenticate('Facebook')}
+                onClick={() => props.authenticate('Facebook')}
         >
             Log in with Facebook
         </button>
