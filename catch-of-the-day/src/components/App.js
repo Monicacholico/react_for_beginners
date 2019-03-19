@@ -6,6 +6,7 @@ import Inventory from './Inventory';
 import sampleFishes from '../sample-fishes';
 import Fish from './Fish';
 import base from "../base";
+import Hello from './Hello';
 
 
 class App extends React.Component {
@@ -98,6 +99,8 @@ class App extends React.Component {
     render() {
         return (
             <div className="catch-of-the-day">
+                <div>HELLO</div>
+                <div><Hello/></div>
                 <div className="menu">
                     <Header tagline="FRESH SEAFOOD"/>
                     <ul className="fishes">
